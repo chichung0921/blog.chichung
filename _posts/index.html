@@ -16,10 +16,10 @@
 <body>
     <div id="pdf-viewer"></div>
 
-    <script src="../build/pdf.js"></script>
+    <script src="../build/pdf.mjs"></script>
     <script>
         // 设置 PDF.js 工作路径
-        pdfjsLib.GlobalWorkerOptions.workerSrc = '../build/pdf.worker.js';
+        pdfjsLib.GlobalWorkerOptions.workerSrc = '../build/pdf.worker.mjs';
 
         // 加载 PDF 文件
         var url = '计量经济学.pdf';
